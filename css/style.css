@@ -53,13 +53,13 @@ body{
 }
 
 /* lista */
-nav li a{
+.listaheader li a{
     text-decoration: none;
     color:black;
     font-size: 20px;
     font-weight: 400;
 }
-nav{
+.listaheader{
     vertical-align: middle;
     text-align: center;
     width: 80%;
@@ -68,16 +68,16 @@ nav{
     line-height: 100px;
    
 }
-ul{
+.listaheader ul{
     padding-left: 100px;
     vertical-align: middle;
 }
-li{
+.listaheader li{
     vertical-align: middle;
     display: inline-block;
     margin: 0px 15px;
 }
-li:hover{
+.listaheader li:hover{
     border-bottom: 2px solid black;
 }
 /* fine lista */
@@ -260,13 +260,67 @@ section:after{
   }
 
   .box{
-      border: 1px solid black;
+      border: 1px solid grey;
       height: 800px;
       width: 400px;
       float: left;
       margin: 20px;
+      line-height: 1.8em;
+      margin-top: 50px;
   }
   .containerbox{
       padding-top: 300px;
       padding-left: 200px;
   }
+  .sezione{
+      height: 40px;
+      line-height: 40px;
+      width: 100%;
+      border-bottom: 1px solid grey;
+      text-align: center;
+  }
+  .mainsezione{
+      padding-left: 40px;
+      padding-top: 40px;
+  }
+  .sezioneprima{
+      padding-top: 40px;
+  }
+  .free{
+    margin-top: 50px;
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+    background-color: #0061FF;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+span{
+    margin-top: 30px;
+}
+.purchase{
+    text-decoration: underline;
+    color: blue;
+}
+.line{
+    display: inline-block;
+    width: 60px;
+    color: white;
+    border-bottom: 1px solid grey;
+    padding-top: 40px;
+}
+ul {
+	position: relative;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1.2em;
+}
+.mainsezione ul li:before {
+	content: "\2713";
+	position: absolute;
+	left: 0;
+}
+
