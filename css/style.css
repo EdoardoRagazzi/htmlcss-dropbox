@@ -51,6 +51,10 @@ li{
     display: inline-block;
     margin: 0px 15px;
 
+
+}
+li:hover{
+    border-bottom: 2px solid black;
 }
 .float-left{
     float: left;
@@ -76,3 +80,24 @@ nav li a{
     width: 100%;
 
 }
+.started{
+    text-align: center;
+    margin-top: 32px;
+    width: 150px;
+    vertical-align: middle;
+    background-color: #0061FF;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    color: white;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.started:hover{
+    background-color: #3B85FF;
+    cursor: pointer;
+}
+
