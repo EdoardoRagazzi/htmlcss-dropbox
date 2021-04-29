@@ -123,7 +123,6 @@ a{
     width: 80%;
     margin: 150px 150px 0 150px;
     height: 100%;
-    border: 1px solid black;
    
     
 }
@@ -163,3 +162,12 @@ a{
     text-decoration: none;
     font-size: 20px;
 }
+.startyourtrial span{
+    color: black;
+    float: left;
+}
+.startyourtrial span i{
+    float: left;
+    font-size: 50px;
+}
+
