@@ -15,6 +15,16 @@ body{
     display: table;
     clear: both;
 }
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.row{
+    height: 100px;
+    width: 100%;
+}
 header{
     background-color:white;
     height: 100px;
@@ -24,6 +34,13 @@ header{
     position: fixed;
 }
 /* logo */
+.logo{
+    display: inline-block;
+    height: 100px;
+    line-height: 100px;
+    width: 150px;
+    background-size: cover;
+}
 #logo{
     height: 30px;
     width: 150px;
@@ -32,7 +49,14 @@ header{
     margin-top: 35px;
     margin-left: 50px;
 }
+
 /* lista */
+nav li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    font-weight: 400;
+}
 nav{
     vertical-align: middle;
     text-align: center;
@@ -50,35 +74,16 @@ li{
     vertical-align: middle;
     display: inline-block;
     margin: 0px 15px;
-
-
 }
 li:hover{
     border-bottom: 2px solid black;
 }
-.float-left{
-    float: left;
-}
-.float-right{
-    float: right;
-}
-nav li a{
-    text-decoration: none;
-    color:black;
-    font-size: 20px;
-    font-weight: 400;
-}
-.logo{
-    display: inline-block;
-    height: 100px;
-    line-height: 100px;
-    width: 150px;
-    background-size: cover;
-}
-.row{
-    height: 100px;
-    width: 100%;
+/* fine lista */
 
+/* started div */
+a{
+    text-decoration: none;
+    color: white;
 }
 .started{
     text-align: center;
@@ -92,12 +97,11 @@ nav li a{
     color: white;
     text-decoration: none;
 }
-a{
-    text-decoration: none;
-    color: white;
-}
 .started:hover{
     background-color: #3B85FF;
     cursor: pointer;
 }
+/* fine started */
+
+/* inizio jumbotron */
 
