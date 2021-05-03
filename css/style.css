@@ -617,7 +617,10 @@ ul {
     font-size: 15px;
 }
 /* fine quarta sezione */
+
+/* inizo css questions */
 .containerquestions{
+    
     padding-top: 100px;
 }
 .containerquestions h1{
@@ -625,12 +628,19 @@ ul {
     border-bottom: 1px solid lightgray;
 }
 .containerquestions p{
+    position: relative;
     font-weight: 900;
     padding-top: 20px;
     padding-bottom: 30px;
     border-bottom: 1px solid lightgray;
-
 }
+.containerquestions span{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 20px;
+}
+/* fine css questions */
 
 
 
