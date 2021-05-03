@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 
 /* inizio css / body*/
 *{
@@ -8,8 +9,7 @@
     
 }
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    position: relative;
+    font-family: 'Open Sans', sans-serif;
 
 }
 .clearfix::after{
@@ -154,6 +154,10 @@ h1{
 /* fine startyourtrialdiv */
 
 /* inizio main */
+main{
+    width: 80%;
+    margin: 0 auto;
+}
 
 /* prima sezione */
 
@@ -404,6 +408,49 @@ ul {
     background-color:lightgray;
 }
 /* fine seconda sezione */
+.grid-container{
+    width: 100%;
+    height:100%;
+    margin-left: 30px;
+    
+}
+.col{
+    display: inline-block;
+    height: 500px;
+    width: calc(100% / 3 - 60px);
+    float: left;
+    margin: 20px;
+}
+.row img{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+}
+.main-txt{
+    font-size: 10px;
+    font-weight: 100;
+}
+.operations h2{
+    font-size: 40px;
+    font-weight: 900;
+    padding-left: 40px;
+}
+.operations h3{
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1em;
+}
+.main-text{
+    font-size: 15px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+
 
 
 
