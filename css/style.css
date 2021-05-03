@@ -426,22 +426,31 @@ ul {
     width: 300px;
     height: 300px;
 }
-.main-txt{
-    font-size: 10px;
-    font-weight: 100;
+.operations h1{
+    font-size: 40px;
+    font-weight: 900;
+    padding-left: 40px;
+    padding-top: 50px;
 }
 .operations h2{
     font-size: 40px;
     font-weight: 900;
     padding-left: 40px;
+    padding-top: 50px;
 }
 .operations h3{
     font-size: 30px;
     font-weight: 900;
     line-height: 1em;
 }
-.main-text{
-    font-size: 15px;
+.linklearn{
+    padding-left: 40px;
+    font-size: 30px;
+    color: #3B85FF;
+
+}
+.col .main-text{
+    font-size: 20px;
     padding-top: 20px;
     font-weight: 600;
 }
