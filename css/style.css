@@ -641,6 +641,25 @@ ul {
     font-size: 20px;
 }
 /* fine css questions */
+.containerfooter{
+    background-color: black;
+    color: white;
+}
+.containerfooter a{
+    text-decoration: none;
+    color: white;
+}
+.containerfooter h2{
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 30px ;
+}
+.containerfooter li{
+    padding-left: 80px;
+}
+.containerfooter nav{
+    float: right
+}
 
 
 
