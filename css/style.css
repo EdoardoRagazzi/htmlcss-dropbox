@@ -458,6 +458,26 @@ ul {
     text-decoration: none;
     color: black;
 }
+.imgbox svg{
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    background-color: #A2D39B;
+    background-size: 100% 100%;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    
+}
+.imgbox{
+    vertical-align: middle;
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+    background-color: #A2D39B;
+    background-size: 100% 100%;
+    text-align: center;
+}
 
 
 
