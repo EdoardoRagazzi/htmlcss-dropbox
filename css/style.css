@@ -458,13 +458,14 @@ ul {
     text-decoration: none;
     color: black;
 }
-.sezioneterza-box-left{
+.sezionequarta-box-left{
     float: left;
     width:30vw;
     height: 600px;
     cursor: pointer;
 }
-.sezioneterza{
+
+.sezionequarta{
     width: 124.5% ;
     height: 400px;
     margin-left: -150px;
@@ -535,7 +536,7 @@ ul {
     filter: invert(100%);
     background-color: transparent;
 }
-.sezioneterza-box-center{
+.sezionequarta-box-center{
     position: relative;
     float: left;
     width:39%;
@@ -551,7 +552,7 @@ ul {
     border-bottom: 1px solid #ccc;
     z-index: 500;
 }
-.sezioneterza-box-center img{
+.sezionequarta-box-center img{
     float: left;
     position: absolute;
     top:80px;
@@ -559,12 +560,12 @@ ul {
     padding-left: 20px;
     padding-bottom: 40px;
 }
-.sezioneterza-box-center p{
+.sezionequarta-box-center p{
     padding-top: 40px;
     padding-left: 20px;
     font-weight: 600;
 }
-.sezioneterza-box-right{
+.sezionequarta-box-right{
     width: 30vw;
     float: left;
     position: relative;
@@ -582,6 +583,7 @@ ul {
 .clear{
     background-color: #FFD830;
 }
+/* fine quarta sezione */
 
 
 
