@@ -589,33 +589,50 @@ ul {
     position: relative;
     margin-left: -20%;
     width: 132%;
-    height: 200px;
+    height: 400px;
     font-size: 30px;
     color: #61082B;
     background-color: #B4D0E7;
 }
 .bring h2{
     position: absolute;
-    top: 50px;
+    top: 200px;
     left: 200px;
 }
 .btnbring{
     position: absolute;
-    top: 60px;
-    right: 80px;
+    top: 150px;
+    right: 200px;
     border: 1px solid black;
-    padding: 8px 20px;
     text-decoration: none;
     background-color:#F5F5F5;
     color: black;
+    padding:8px 20px;
+    margin:40px 0 10px 0;
 
 }
 .btnbring a{
     color: black;
     text-decoration: none;
+    font-size: 15px;
+}
+/* fine quarta sezione */
+.containerquestions{
+    padding-top: 100px;
+}
+.containerquestions h1{
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgray;
+}
+.containerquestions p{
+    font-weight: 900;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgray;
+
 }
 
-/* fine quarta sezione */
+
 
 
 
