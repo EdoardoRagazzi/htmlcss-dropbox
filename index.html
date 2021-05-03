@@ -5,56 +5,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" />
-    <title>html Dropbox</title>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Html Dropbox</title>
 </head>
 
 <body>
     <!-- inizio header -->
-    <header>
-        <div class="container">
-            <div class="row clearfix">
-                <div class="logo float-left">
-                    <img id="logo" src="img/logo.png" alt="logo">
+    <header class="clearfix">
+        <nav class="listaheader clearfix">
+            <!-- nav left start -->
+            <ul class="float-left">
+                <li>
+                    <a href="#">
+                        <img id="logo" src="img/logo.png" alt="Dropbox logo">
+                    </a>
+                </li>
+                <li><a href="#">Why Dropbox?</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Plans & Pricing</a></li>
+            </ul>
+            <!-- nav left end  -->
 
-
-                </div>
-                <nav class="listaheader">
-                    <ul class="lista float-left">
-                        <li><a href="#">Why Dropbox?</a></li>
-                        <li><a href="#">Features</a></li>
-                        <li><a href="#">Plans & Pricing</a></li>
-                    </ul>
-                    <ul class="lista float-right">
-                        <li><a href="#">Support</a></li>
-                        <li><a href="#">Contact sales</a></li>
-                        <li><a href="#">Sign In</a></li>
-                    </ul>
-                </nav>
-                <div class="started"> <a href="#">Get Started</a> </div>
-            </div>
-        </div>
+            <!-- inizio nav destro -->
+            <ul class="float-right">
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Contact sales</a></li>
+                <li><a href="#">Sign In</a></li>
+                <li>
+                    <a href="#">
+                        <span class="btn btn-blue">Get started</span>
+                    </a>
+                </li>
+            </ul>
+            <!-- fine nav destro -->
+        </nav>
     </header>
     <!-- fine header -->
+
+
+
     <!-- inizio jumbotron -->
-    <div class="jumbotron">
+    <div class="jumbo">
+        <h1>Everything you need for work, all in one place</h1>
         <div class="jumbotroncontainer">
             <div class="jumbotron-box">
-                <h1>Everything you need for work, all in one place</h1>
 
-            </div>
-            <div class="jumbotron-box-text">
-                <span>Finally now all of your tools, content and collaborators are accessible from the same place.
-                    Dropbox Business is more than secure storage</span>
-            </div>
-            <div class="startyourtrial"><a href="#">Start your free trial</a> <br>
-                <span>Cancel any time <br><i class="fas fa-long-arrow-alt-down"></i></span>
 
+
+                <div class="jumbotron-box-text">
+                    <span>Finally now all of your tools, content and collaborators are accessible from the same place.
+                        Dropbox Business is more than secure storage</span>
+                </div>
+                <div class="btnstart"><a href="#">Start your free trial</a> <br>
+                    <span>Cancel any time <br>
+                        <i class="fas fa-long-arrow-alt-down"></i></span>
+                </div>
             </div>
-            <img src="img/img1.png" alt="">
+
+            <div class="jumbo-img">
+                <img src="img/img1.png" alt="Jumbo img">
+            </div>
+
+
         </div>
     </div>
     <!-- fine jumbotron -->
@@ -75,7 +94,7 @@
                 </label>
 
             </div>
-            <div class="containerbox">
+            <div class="containerbox clearfix">
                 <div class="box primo">
                     <div class="sezione"> <i class="far fa-user"></i> Individual</div>
                     <div class="mainsezione">

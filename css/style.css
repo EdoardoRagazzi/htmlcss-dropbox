@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap');
+
 /* inizio css / body*/
 *{
     padding:0;
@@ -9,185 +9,157 @@
 }
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
 
 }
-
-/* header + clearfix */
 .clearfix::after{
-    content: " ";
+    content: '';
     display: table;
     clear: both;
 }
+/* header + clearfix */
+header{
+    font-family: 'Roboto', sans-serif;
+    font-size:18px;
+    color:#000;
+
+    width:100%;
+    height:80px;
+    line-height:78px;
+
+    background-color: #fff;
+    border-bottom:1px solid lightgrey;
+
+    position:fixed;
+    z-index:100;
+    top:0;
+    left:0;
+}
+
+.listaheader{
+    font-size:18px;
+    letter-spacing: 0.2px;
+    font-weight:400;
+}
+
+
 .float-left{
     float: left;
 }
 .float-right{
     float: right;
 }
-.row{
-    height: 100px;
-    width: 100%;
-}
-.container{
-    width: 100%;
-    position: fixed;
-    background-color:white;
-    border-bottom: 1px solid #C2D0DD;
-    z-index: 500;
-}
-/* logo */
-.logo{
-    display: inline-block;
-    height: 100px;
-    line-height: 100px;
-    width: 150px;
-    background-size: cover;
-}
-#logo{
-    height: 30px;
-    width: 150px;
-    vertical-align: middle;
-    float: left;
-    margin-top: 35px;
-    margin-left: 50px;
-}
-
-/* lista */
-.listaheader li a{
-    text-decoration: none;
-    color:black;
-    font-size: 20px;
-    font-weight: 400;
-}
-.listaheader{
-    vertical-align: middle;
-    text-align: center;
-    width: 80%;
-    height: 100px;
-    float: left;
-    line-height: 100px;
-   
-}
-.listaheader ul{
-    padding-left: 100px;
-    vertical-align: middle;
-}
-.listaheader li{
-    vertical-align: middle;
-    display: inline-block;
-    margin: 0px 15px;
-}
 .listaheader li:hover{
     border-bottom: 2px solid black;
 }
+.float-left li:first-child:hover, .float-right li:last-child:hover{
+    border-bottom:none;
+} 
+/* logo */
+#logo{
+    width:120px;
+    vertical-align: middle;
+}
+.listaheader ul li{
+    list-style:none;
+    display: inline-block;
+    margin:0 20px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+/* lista */
+
 /* fine lista */
 
 /* started div */
-a{
-    text-decoration: none;
-    color: white;
+
+.btn{
+    padding:8px 20px;
+    margin:40px 0 10px 0;
 }
-.started{
-    text-align: center;
-    margin-top: 32px;
-    width: 150px;
-    vertical-align: middle;
-    background-color: #0061FF;
-    display: inline-block;
-    height: 35px;
-    line-height: 35px;
-    color: white;
-    text-decoration: none;
+
+.btn-blue{
+    background-color: blue;
+    color:#fff;
 }
-.started:hover{
-    background-color: #3B85FF;
-    cursor: pointer;
+
+.btn-blue:hover{
+    background-color: rgba(0, 0, 255, 0.5);
 }
 /* fine started */
 
 /* inizio jumbotron */
-.jumbotron{
-    background-color: #B4D0E7;
-    width: 100%;
-    height: 700px;
-    display: inline-block;
-}
-.jumbotroncontainer::after{
-    content: " ";
-    display: table;
-    clear: both;
-
+.jumbo{
+    height:850px;
+    padding: 130px 55px 0 55px;
+    background-color: rgb(180, 208, 231);
+    margin-bottom:200px;
 }
 .jumbotroncontainer{
-    position: absolute;
-    width: 80%;
-    margin: 150px 150px 0 150px;
-    height: 60%;
-   
-    
+    position:relative;
 }
-.jumbotron-box{
-    position: absolute;
-    text-align: left;
-    font-family: 'Arvo', serif;
-    width: 110%;
-    font-size: 180%;
-    font-weight: 600;
-    
-}
-.jumbotron-box-text{
-    position: absolute;
-    top:120px;
-    height: 200px;
-    width: 400px;
-    font-size: 30px;
-}
-
-.jumbotroncontainer img{
-    padding-top: 100px;
+.jumbo-img{
+    width:50%;
+    margin-top: 10%;
+    margin-right:20%;
     float: right;
+}
+.jumbo a{
+    text-decoration: none;
+    color:white;
+
 }
 
 /* startyourtrial div  */
-.startyourtrial{
+.btnstart {
     position: absolute;
-    top:300px;
+    top:200px;
     text-align: center;
     width: 250px;
     vertical-align: middle;
     background-color: #0061FF;
     height: 60px;
     line-height: 60px;
-    color: white;
+    color:orange;
     text-decoration: none;
     font-size: 20px;
+    display: inline-block;
+    
 }
-.startyourtrial span{
+.btnstart:hover{
+    background-color: rgba(0, 0, 255, 0.5);
+}
+.btnstart span{
     color: black;
     float: left;
 }
-.startyourtrial span i{
+.btnstart span i{
     float: left;
     font-size: 50px;
+}
+h1{
+    font-size:60px;
+    letter-spacing: -0.5px;
+    margin-bottom: 60px;
+}
+.jumbotron-box-text{
+    width: 300px;
+    height: 300px;
+    float: left;
+    position: absolute;
+    font-size: 20px;
 }
 /* fine startyourtrialdiv */
 
 /* inizio main */
 
 /* prima sezione */
-section{
-    position: relative;
-}
+
 .business{
-    position: absolute;
     font-size: 30px;
-    top: 200px;
-    left: 250px;
-}
-section:after{
-    content: " ";
-    display: table;
-    clear: both;
+    padding-left: 10%;
 }
 .business h1{
     font-family: 'Arvo', serif;
@@ -258,27 +230,33 @@ section:after{
       border-radius: 50%;
       background: white;
   }
-
-  .box{
+/* box */
+.box{
       border: 1px solid grey;
       height: 800px;
-      width: 400px;
+      width: calc(100% / 3 - 50px);
       float: left;
       margin: 20px;
       line-height: 1.8em;
       margin-top: 50px;
-  }
-  .containerbox{
-      padding-top: 300px;
-      padding-left: 200px;
-  }
-  .sezione{
+}
+.containerbox{
+      width: 100%;
+
+}
+.free a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.sezione{
       height: 40px;
       line-height: 40px;
       width: 100%;
       border-bottom: 1px solid grey;
       text-align: center;
-  }
+}
   .mainsezione{
       padding-left: 40px;
       padding-top: 40px;
@@ -334,7 +312,7 @@ ul {
     height: 300px;
     width: 90%;
     float: left;
-    margin-left: 100px;
+    margin-left: 50px;
     line-height: 1.8em;
     margin-top: 50px;
 }
@@ -348,7 +326,8 @@ ul {
 .testoteam{
     padding-top: 30px;
     padding-left: 50px;
-    line-height: 4em;
+    line-height: 3em;
+    
 }
 .contactsales{
     position: absolute;
@@ -363,6 +342,10 @@ ul {
     text-decoration: none;
     font-size: 20px;
     cursor: pointer;
+}
+.contactsales a {
+    text-decoration: none;
+    color: white;
 }
 .contactsales:hover{
     background-color: #3B85FF;
