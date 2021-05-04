@@ -669,7 +669,7 @@ ul {
     padding-bottom: 30px;
     border-bottom: 1px solid lightgray;
 }
-.containerquestions li{
+.containerquestions div{
     position: relative;
     font-weight: 900;
     padding-top: 20px;
@@ -683,7 +683,7 @@ ul {
     font-size: 20px;
     
 }
-.containerquestions.main ul ul{
+.containerquestions.main div .il{
     position: absolute;
     list-style: none;
     opacity: 0;
@@ -694,7 +694,15 @@ ul {
     transition: opacity 600ms, visibility 600ms;
     background-color: black;
 }
-.main ul li ul li{
+.main .ul:hover .il{
+    display: block;
+    visibility: visible;
+    opacity: 10;
+}
+.main .ul:hover{
+    padding-bottom: 100px;
+}
+.main div div{
     color: green;
 }
 /* fine css questions */
@@ -710,7 +718,7 @@ footer{
     height: 500px;
 }
 .containerfooter a{
-    text-decoration: none;
+    text-decoration: white;
     color: white;
 }
 .containerfooter h2{
@@ -719,7 +727,7 @@ footer{
 .containerfooter li{
     list-style-type: none;
     line-height: 1.8em;
-    text-decoration: none;
+    text-decoration: white;
   
 }
 .listacontainer ul, .listacontainer1 ul{
