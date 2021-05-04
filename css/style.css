@@ -713,7 +713,7 @@ ul {
     
     -webkit-transition: opacity 600ms, visibility 600ms;
     transition: opacity 600ms, visibility 600ms;
-    background-color: black;
+    background-color: white;
 }
 .main .ul:hover .il{
     display: block;
