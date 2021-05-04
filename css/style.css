@@ -68,6 +68,7 @@ nav.main ul ul {
     -webkit-transition: opacity 600ms, visibility 600ms;
     transition: opacity 600ms, visibility 600ms;
   }
+ 
   nav.main ul li:hover ul {
     visibility: visible;
     opacity: 1;
@@ -665,7 +666,7 @@ ul {
     padding-bottom: 30px;
     border-bottom: 1px solid lightgray;
 }
-.containerquestions p{
+.containerquestions li{
     position: relative;
     font-weight: 900;
     padding-top: 20px;
