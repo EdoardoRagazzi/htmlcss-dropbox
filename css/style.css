@@ -303,14 +303,35 @@ main{
       border-bottom: 1px solid grey;
       text-align: center;
 }
-  .mainsezione{
+.i::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.fa{
+    display: inline-block;
+    float: left;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.productivity{
+    width:80%;
+    float: left;
+    
+    
+    
+    
+  
+}
+.mainsezione{
       padding-left: 40px;
       padding-top: 40px;
-  }
-  .sezioneprima{
+}
+.sezioneprima{
       padding-top: 40px;
-  }
-  .free{
+}
+.free{
     margin-top: 50px;
     display: inline-block;
     text-align: center;
