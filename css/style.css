@@ -59,19 +59,22 @@ header{
 /* fine chat */
 /* lista nascosta */
 nav.main ul ul {
-    position: absolute;
-    list-style: none;
-    opacity: 0;
-    visibility: hidden;
-    padding: 10px;
-    background-color: rgba(92, 91, 87, 0.9);
-    -webkit-transition: opacity 600ms, visibility 600ms;
-    transition: opacity 600ms, visibility 600ms;
-  }
+        position: absolute;
+        list-style: none;
+        opacity: 0;
+        visibility: hidden;
+        padding: 10px;
+        background-color: rgba(92, 91, 87, 0.9);
+        -webkit-transition: opacity 600ms, visibility 600ms;
+        transition: opacity 600ms, visibility 600ms;
+}
+nav.main ul li ul li a{
+    color: white;
+}
  
   nav.main ul li:hover ul {
     visibility: visible;
-    opacity: 1;
+    opacity: 10;
   }
   /* fine lista nascosta */
 
@@ -679,6 +682,20 @@ ul {
     right: 20px;
     font-size: 20px;
     
+}
+.containerquestions.main ul ul{
+    position: absolute;
+    list-style: none;
+    opacity: 0;
+    visibility: hidden;
+    padding: 10px;
+    
+    -webkit-transition: opacity 600ms, visibility 600ms;
+    transition: opacity 600ms, visibility 600ms;
+    background-color: black;
+}
+.main ul li ul li{
+    color: green;
 }
 /* fine css questions */
 .containerfooter{
