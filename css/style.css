@@ -35,6 +35,44 @@ header{
     top:0;
     left:0;
 }
+/* chat  */
+.chat{
+    position: fixed;
+    z-index:100;
+    bottom:0px;
+    right:20px;
+  
+}
+.chat a {
+    font-size: 50px;
+    color: teal;
+}
+.chat a:hover{
+    display: none;
+}
+.chatbox img{
+    height: 400px;
+    width: 200px;
+
+}
+
+/* fine chat */
+/* lista nascosta */
+nav.main ul ul {
+    position: absolute;
+    list-style: none;
+    opacity: 0;
+    visibility: hidden;
+    padding: 10px;
+    background-color: rgba(92, 91, 87, 0.9);
+    -webkit-transition: opacity 600ms, visibility 600ms;
+    transition: opacity 600ms, visibility 600ms;
+  }
+  nav.main ul li:hover ul {
+    visibility: visible;
+    opacity: 1;
+  }
+  /* fine lista nascosta */
 
 .listaheader{
     font-size:18px;
